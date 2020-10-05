@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+}
+
+
+.fruits-container {
+    border: solid 10px #6a2c70 ;
+    border-radius: 20px;
+    background:#f9ed69 ;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.header {
+    background: #b83b5e;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.list-item {
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fafafa ;
+    width: 100%;
+}
+.item-image {
+    width: 40px;
+    height: 40px;
+}
+.list{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
